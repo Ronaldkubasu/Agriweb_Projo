@@ -333,11 +333,11 @@ footer{
     color: white;
 }
 
-.ft_copyright{
+.text{
     display: flex;
     justify-content: center;
     padding: 16px;
-    color: black;
+    color: white;
     height: 30;
 }
 
@@ -361,6 +361,16 @@ footer{
 
 #fa{
     display: flex;
+}
+
+#agr{
+    font-size: 30px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.icon{
+width: 5px;
+color: white;
 }
 
 .trial svg{
