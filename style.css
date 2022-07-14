@@ -1,0 +1,369 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    
+    font-family: 'Inter', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.nav{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: black;
+    font-weight: 900;
+    text-align: center;
+}
+.nav-ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.links li,
+.nav-ul li {
+    display: inline-block;
+    align-items: center;
+    
+}
+.nav-ul li {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+}
+.nav-hover:hover {
+    color: #ED661F;
+    border-bottom:#ED661F solid;
+    padding-bottom: 5px;
+    font-size: 10px;
+}
+
+.links,
+.nav-ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    
+    
+
+}
+.logo {
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    color: #FAFAFA;
+
+}
+.login li{
+    color: #FAFAFA;
+
+}
+
+.container {
+    padding: 20px 5%;
+}
+.Buy-sell {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 5%;
+    background: url('assets/image\ 1.png');
+    background-position: center bottom;
+    background-size: contain;
+    position: relative;
+    z-index: 1;
+    min-height: 75vh;
+    
+}
+
+.Buy-sell-text {
+    width: 40%;
+    padding: 3em 0px;
+}
+
+.buy-sell-image {
+    width: 60%;
+}
+
+.fruits {
+    width: 100%;
+}
+
+.box-shadow {
+
+    border-radius: 0px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    left: 25%;
+    margin: auto;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    position: absolute;
+    z-index: 2;
+    bottom: -1em;
+    padding: 30px 0px;
+    border-radius: 50px;
+}
+.btn {
+    background-color: #ED661F;
+    color: white;
+    padding: 10px;
+    border-radius: 50px;
+
+}
+
+.intro-heading {
+    font-size: 3em;
+}
+
+.intro-paragrapgh {
+    font-size: 1.2em;
+}
+
+.explore {
+    padding: 1.2em 0.7em;
+    font-size: 1.2em;
+    margin-top: 2em;
+    font-weight: 900;
+    border-radius: 50px;
+}
+
+.buttons {
+    margin-top: 3em;
+    border-radius: 50px;
+}
+
+.Why-we-exist {
+    display: flex;
+
+}
+
+.exist-text {
+    width: 50%;
+    padding-right: 4em;
+}
+
+.exist-image {
+    width: 50%;
+}
+
+.exist-img {
+    width: 100%;
+}
+
+.heading {
+    font-size: 2em;
+    border-bottom-width: 4px;
+}
+
+.center {
+    text-align: center;
+}
+
+.cards, .feedback-cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product-card {
+    width: 22%;
+}
+
+.customer-card {
+    width: 27%;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    padding: 2em .8em;
+}
+
+.customer-txt {
+    font-weight: 800;
+    padding: 1em 0;
+    font-size: x-large;
+}
+
+.card-img {
+    width: 100%;
+}
+
+.customer-img ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: large;
+}
+
+.profile-img {
+    margin-right: 2em;
+}
+
+.right-btn {
+    color: black;
+    float: right;
+    font-weight: 600;
+    font-size: 1.6em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.divider {
+    height: 2em;
+    border-top: rgb(29, 28, 28) 2px solid;
+    background: rgb(192, 192, 192);
+    margin-top: 6em;
+}
+
+.keep-in-touch {
+    margin-top: 7em;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: black;
+    text-align: center;
+    color: #fff;
+    padding: 4em 0;
+}
+
+.subscribe {
+    height: 2em;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.sub-txt {
+    color: black;
+    text-align: center;
+    height: 100%;
+    padding: 0%;
+    margin: 0%;
+    border: none;
+}
+
+.sub-btn {
+    margin: 0%;
+    font-weight: 700;
+    padding: 0%;
+    color: #fff;
+    background-color: #ED661F;
+    padding: 0.4em;
+}
+
+footer {
+    margin-top: 0.4em;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: black;
+    color:#fff;
+    padding: 40px 35px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    min-height: 30vh;
+}
+
+ul {
+    list-style: none;
+    padding: 0%;
+}
+
+.summary {
+    width: 50%;
+}
+
+.Company, .Products, .Others {
+    width: 16%;
+}
+
+.Company ul li, .Products ul li, .Others ul li {
+    margin-bottom: 1.5em;
+}
+
+.footer-center {
+    text-align: center;
+    margin-bottom: 2em 0;
+}
+
+.icons {
+    color: #999;
+    display: flex;
+    margin-top: 2.5em;
+    width: 20%;
+    justify-content: space-between;
+}
+
+.stars {
+    color: #ED661F;
+}
+
+.gray-star {
+    color: #999;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    color: white;
+
+}
+
+.footer_body{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+
+}
+
+.ft_social{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.footer_nav{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    list-style-type: none;
+    color: white;
+}
+
+.ft_copyright{
+    display: flex;
+    justify-content: center;
+    padding: 16px;
+    color: black;
+    height: 30;
+}
+
+.h4{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+
+.icons .fa{
+    color: red;
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px 0;
+    height: 50%;
+  }
+
+  .icons{
+    color: white;
+  }
+
+#fa{
+    display: flex;
+}
+
+.trial svg{
+    width: 30%;
+}
+    
