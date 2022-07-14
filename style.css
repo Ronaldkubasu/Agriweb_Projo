@@ -91,7 +91,7 @@ a {
     width: 100%;
 }
 
-.box-shadow {
+.shadow {
 
     border-radius: 0px;
     background-color: #fff;
@@ -366,4 +366,3 @@ footer{
 .trial svg{
     width: 30%;
 }
-    
